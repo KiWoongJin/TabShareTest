@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000FAAD41883796A00B78447 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000FAAD31883796A00B78447 /* Foundation.framework */; };
+		000FAAD61883796A00B78447 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000FAAD51883796A00B78447 /* CoreGraphics.framework */; };
+		000FAAD81883796A00B78447 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000FAAD71883796A00B78447 /* UIKit.framework */; };
+		000FAADE1883796A00B78447 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000FAADC1883796A00B78447 /* InfoPlist.strings */; };
+		000FAAE01883796A00B78447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000FAADF1883796A00B78447 /* main.m */; };
+		000FAAE41883796A00B78447 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000FAAE31883796A00B78447 /* AppDelegate.m */; };
+		000FAAE71883796A00B78447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000FAAE51883796A00B78447 /* Main.storyboard */; };
+		000FAAEA1883796A00B78447 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000FAAE91883796A00B78447 /* ViewController.m */; };
+		000FAAEC1883796A00B78447 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000FAAEB1883796A00B78447 /* Images.xcassets */; };
+		000FAAF31883796A00B78447 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000FAAF21883796A00B78447 /* XCTest.framework */; };
+		000FAAF41883796A00B78447 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000FAAD31883796A00B78447 /* Foundation.framework */; };
+		000FAAF51883796A00B78447 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000FAAD71883796A00B78447 /* UIKit.framework */; };
+		000FAAFD1883796A00B78447 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000FAAFB1883796A00B78447 /* InfoPlist.strings */; };
+		000FAAFF1883796A00B78447 /* TabShareTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000FAAFE1883796A00B78447 /* TabShareTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000FAAF61883796A00B78447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000FAAC81883796A00B78447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000FAACF1883796A00B78447;
+			remoteInfo = TabShareTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000FAAD01883796A00B78447 /* TabShareTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabShareTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000FAAD31883796A00B78447 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		000FAAD51883796A00B78447 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		000FAAD71883796A00B78447 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		000FAADB1883796A00B78447 /* TabShareTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabShareTest-Info.plist"; sourceTree = "<group>"; };
+		000FAADD1883796A00B78447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		000FAADF1883796A00B78447 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		000FAAE11883796A00B78447 /* TabShareTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabShareTest-Prefix.pch"; sourceTree = "<group>"; };
+		000FAAE21883796A00B78447 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		000FAAE31883796A00B78447 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		000FAAE61883796A00B78447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		000FAAE81883796A00B78447 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		000FAAE91883796A00B78447 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		000FAAEB1883796A00B78447 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		000FAAF11883796A00B78447 /* TabShareTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabShareTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000FAAF21883796A00B78447 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		000FAAFA1883796A00B78447 /* TabShareTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabShareTestTests-Info.plist"; sourceTree = "<group>"; };
+		000FAAFC1883796A00B78447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		000FAAFE1883796A00B78447 /* TabShareTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabShareTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000FAACD1883796A00B78447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000FAAD61883796A00B78447 /* CoreGraphics.framework in Frameworks */,
+				000FAAD81883796A00B78447 /* UIKit.framework in Frameworks */,
+				000FAAD41883796A00B78447 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000FAAEE1883796A00B78447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000FAAF31883796A00B78447 /* XCTest.framework in Frameworks */,
+				000FAAF51883796A00B78447 /* UIKit.framework in Frameworks */,
+				000FAAF41883796A00B78447 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000FAAC71883796A00B78447 = {
+			isa = PBXGroup;
+			children = (
+				000FAAD91883796A00B78447 /* TabShareTest */,
+				000FAAF81883796A00B78447 /* TabShareTestTests */,
+				000FAAD21883796A00B78447 /* Frameworks */,
+				000FAAD11883796A00B78447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000FAAD11883796A00B78447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000FAAD01883796A00B78447 /* TabShareTest.app */,
+				000FAAF11883796A00B78447 /* TabShareTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000FAAD21883796A00B78447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000FAAD31883796A00B78447 /* Foundation.framework */,
+				000FAAD51883796A00B78447 /* CoreGraphics.framework */,
+				000FAAD71883796A00B78447 /* UIKit.framework */,
+				000FAAF21883796A00B78447 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		000FAAD91883796A00B78447 /* TabShareTest */ = {
+			isa = PBXGroup;
+			children = (
+				000FAAE21883796A00B78447 /* AppDelegate.h */,
+				000FAAE31883796A00B78447 /* AppDelegate.m */,
+				000FAAE51883796A00B78447 /* Main.storyboard */,
+				000FAAE81883796A00B78447 /* ViewController.h */,
+				000FAAE91883796A00B78447 /* ViewController.m */,
+				000FAAEB1883796A00B78447 /* Images.xcassets */,
+				000FAADA1883796A00B78447 /* Supporting Files */,
+			);
+			path = TabShareTest;
+			sourceTree = "<group>";
+		};
+		000FAADA1883796A00B78447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				000FAADB1883796A00B78447 /* TabShareTest-Info.plist */,
+				000FAADC1883796A00B78447 /* InfoPlist.strings */,
+				000FAADF1883796A00B78447 /* main.m */,
+				000FAAE11883796A00B78447 /* TabShareTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		000FAAF81883796A00B78447 /* TabShareTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				000FAAFE1883796A00B78447 /* TabShareTestTests.m */,
+				000FAAF91883796A00B78447 /* Supporting Files */,
+			);
+			path = TabShareTestTests;
+			sourceTree = "<group>";
+		};
+		000FAAF91883796A00B78447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				000FAAFA1883796A00B78447 /* TabShareTestTests-Info.plist */,
+				000FAAFB1883796A00B78447 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000FAACF1883796A00B78447 /* TabShareTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000FAB021883796A00B78447 /* Build configuration list for PBXNativeTarget "TabShareTest" */;
+			buildPhases = (
+				000FAACC1883796A00B78447 /* Sources */,
+				000FAACD1883796A00B78447 /* Frameworks */,
+				000FAACE1883796A00B78447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabShareTest;
+			productName = TabShareTest;
+			productReference = 000FAAD01883796A00B78447 /* TabShareTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000FAAF01883796A00B78447 /* TabShareTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000FAB051883796A00B78447 /* Build configuration list for PBXNativeTarget "TabShareTestTests" */;
+			buildPhases = (
+				000FAAED1883796A00B78447 /* Sources */,
+				000FAAEE1883796A00B78447 /* Frameworks */,
+				000FAAEF1883796A00B78447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000FAAF71883796A00B78447 /* PBXTargetDependency */,
+			);
+			name = TabShareTestTests;
+			productName = TabShareTestTests;
+			productReference = 000FAAF11883796A00B78447 /* TabShareTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000FAAC81883796A00B78447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SDT-1";
+				TargetAttributes = {
+					000FAAF01883796A00B78447 = {
+						TestTargetID = 000FAACF1883796A00B78447;
+					};
+				};
+			};
+			buildConfigurationList = 000FAACB1883796A00B78447 /* Build configuration list for PBXProject "TabShareTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000FAAC71883796A00B78447;
+			productRefGroup = 000FAAD11883796A00B78447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000FAACF1883796A00B78447 /* TabShareTest */,
+				000FAAF01883796A00B78447 /* TabShareTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000FAACE1883796A00B78447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000FAAEC1883796A00B78447 /* Images.xcassets in Resources */,
+				000FAADE1883796A00B78447 /* InfoPlist.strings in Resources */,
+				000FAAE71883796A00B78447 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000FAAEF1883796A00B78447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000FAAFD1883796A00B78447 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000FAACC1883796A00B78447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000FAAEA1883796A00B78447 /* ViewController.m in Sources */,
+				000FAAE41883796A00B78447 /* AppDelegate.m in Sources */,
+				000FAAE01883796A00B78447 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000FAAED1883796A00B78447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000FAAFF1883796A00B78447 /* TabShareTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000FAAF71883796A00B78447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000FAACF1883796A00B78447 /* TabShareTest */;
+			targetProxy = 000FAAF61883796A00B78447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		000FAADC1883796A00B78447 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000FAADD1883796A00B78447 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		000FAAE51883796A00B78447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000FAAE61883796A00B78447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		000FAAFB1883796A00B78447 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000FAAFC1883796A00B78447 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		000FAB001883796A00B78447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		000FAB011883796A00B78447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000FAB031883796A00B78447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabShareTest/TabShareTest-Prefix.pch";
+				INFOPLIST_FILE = "TabShareTest/TabShareTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		000FAB041883796A00B78447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabShareTest/TabShareTest-Prefix.pch";
+				INFOPLIST_FILE = "TabShareTest/TabShareTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		000FAB061883796A00B78447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TabShareTest.app/TabShareTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabShareTest/TabShareTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TabShareTestTests/TabShareTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		000FAB071883796A00B78447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TabShareTest.app/TabShareTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabShareTest/TabShareTest-Prefix.pch";
+				INFOPLIST_FILE = "TabShareTestTests/TabShareTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000FAACB1883796A00B78447 /* Build configuration list for PBXProject "TabShareTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000FAB001883796A00B78447 /* Debug */,
+				000FAB011883796A00B78447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000FAB021883796A00B78447 /* Build configuration list for PBXNativeTarget "TabShareTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000FAB031883796A00B78447 /* Debug */,
+				000FAB041883796A00B78447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		000FAB051883796A00B78447 /* Build configuration list for PBXNativeTarget "TabShareTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000FAB061883796A00B78447 /* Debug */,
+				000FAB071883796A00B78447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000FAAC81883796A00B78447 /* Project object */;
+}
