@@ -21,6 +21,8 @@
 		000FAAF51883796A00B78447 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000FAAD71883796A00B78447 /* UIKit.framework */; };
 		000FAAFD1883796A00B78447 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000FAAFB1883796A00B78447 /* InfoPlist.strings */; };
 		000FAAFF1883796A00B78447 /* TabShareTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000FAAFE1883796A00B78447 /* TabShareTestTests.m */; };
+		000FAB0A18837A1F00B78447 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000FAB0918837A1F00B78447 /* FirstViewController.m */; };
+		000FAB0D18837A2C00B78447 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000FAB0C18837A2C00B78447 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		000FAAFA1883796A00B78447 /* TabShareTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabShareTestTests-Info.plist"; sourceTree = "<group>"; };
 		000FAAFC1883796A00B78447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		000FAAFE1883796A00B78447 /* TabShareTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabShareTestTests.m; sourceTree = "<group>"; };
+		000FAB0818837A1F00B78447 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		000FAB0918837A1F00B78447 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		000FAB0B18837A2C00B78447 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		000FAB0C18837A2C00B78447 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				000FAAE91883796A00B78447 /* ViewController.m */,
 				000FAAEB1883796A00B78447 /* Images.xcassets */,
 				000FAADA1883796A00B78447 /* Supporting Files */,
+				000FAB0818837A1F00B78447 /* FirstViewController.h */,
+				000FAB0918837A1F00B78447 /* FirstViewController.m */,
+				000FAB0B18837A2C00B78447 /* SecondViewController.h */,
+				000FAB0C18837A2C00B78447 /* SecondViewController.m */,
 			);
 			path = TabShareTest;
 			sourceTree = "<group>";
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000FAB0D18837A2C00B78447 /* SecondViewController.m in Sources */,
 				000FAAEA1883796A00B78447 /* ViewController.m in Sources */,
 				000FAAE41883796A00B78447 /* AppDelegate.m in Sources */,
 				000FAAE01883796A00B78447 /* main.m in Sources */,
+				000FAB0A18837A1F00B78447 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
